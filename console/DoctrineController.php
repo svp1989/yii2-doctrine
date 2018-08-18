@@ -30,11 +30,7 @@ class DoctrineController extends Controller
         return ['o' => 'option'];
     }
 
-    /**
-     * переписываем значения глобальных
-     * переменных для возможности запуска консольного скрипта
-     * для введения опции нужно ввести -o=опция/алиас доктрины
-     */
+    
     private function env()
     {
         $args = $_SERVER['argv'];
