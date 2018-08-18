@@ -3,7 +3,7 @@ Yii 2 extension wrapper to communicate with Doctrine 2.
 ## Installation
 You can add this library as a local, per-project dependency to your project using [Composer](https://getcomposer.org/):
 
-    composer require svp/yii2-doctrine
+    composer require liketomove/yii2-doctrine
     
 ## Usage ##
 For connecting doctrine components insert in you **config** file
