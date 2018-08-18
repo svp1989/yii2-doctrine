@@ -29,7 +29,7 @@ class DoctrineComponent extends Component
     private function setConfig(array $config)
     {
         if (empty($config)) {
-            throw new Exception('Не удалось получить настройки Doctrine');
+            throw new Exception('No config found for Doctrine');
         }
 
         foreach ($config as $key => $value) {
