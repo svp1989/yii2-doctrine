@@ -1,5 +1,5 @@
 {
-    "name": "svp/yii2-doctrine",
+    "name": "liketomove/yii2-doctrine",
     "description": "Yii 2 extension wrapper to communicate with Doctrine 2.",
     "keywords": ["yii","doctrine"],
     "homepage": "https://github.com/Seldaek/monolog",
