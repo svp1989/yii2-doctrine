@@ -1,9 +1,14 @@
 {
     "name": "liketomove/yii2-doctrine",
     "description": "Yii 2 extension wrapper to communicate with Doctrine 2.",
-    "keywords": ["yii","doctrine"],
-    "homepage": "https://github.com/Seldaek/monolog",
+    "keywords": ["yii2","doctrine"],
+    "homepage": "https://github.com/liketomove/yii2-doctrine",
     "type": "yii-extension",
+    "license": "BSD-3-Clause",
+    "support": {
+        "source": "https://github.com/liketomove/yii2-doctrine"
+    },
+    "minimum-stability": "stable",
     "authors": [
         {
             "name": "Gipi Scioni",
