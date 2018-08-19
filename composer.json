@@ -16,8 +16,8 @@
         }
     ],
     "require": {
-        "php": "7.1.*",
-        "doctrine/orm": "*"
+        "php": "^7.1.*",
+        "doctrine/orm": "2.6.*"
     },
     "autoload": {
         "psr-4": {
