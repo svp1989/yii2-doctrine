@@ -30,7 +30,7 @@ class DoctrineController extends Controller
         return ['o' => 'option'];
     }
 
-    
+
     private function env()
     {
         $args = $_SERVER['argv'];
@@ -43,7 +43,7 @@ class DoctrineController extends Controller
         }
 
         if (isset($this->option)) {
-            $_SERVER['argv'][2] =  str_replace('-o=','' , $_SERVER['argv'][2]);
+            $_SERVER['argv'][2] = str_replace('-o=', '', $_SERVER['argv'][2]);
         }
     }
 }

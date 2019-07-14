@@ -3,13 +3,13 @@
 namespace yii\doctrine\components;
 
 use Doctrine\ORM\EntityManager;
-use \Doctrine\ORM\Tools\Setup;
+use Doctrine\ORM\Tools\Setup;
 use yii\base\Component;
 use yii\console\Exception;
 
 class DoctrineComponent extends Component
 {
-    private $em    = null;
+    private $em = null;
     private $isDev = false;
     private $basePath;
     private $proxyPath;
