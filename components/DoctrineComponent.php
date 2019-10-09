@@ -3,13 +3,13 @@
 namespace yii\doctrine\components;
 
 use Doctrine\ORM\EntityManager;
-use \Doctrine\ORM\Tools\Setup;
+use Doctrine\ORM\Tools\Setup;
 use yii\base\Component;
 use yii\console\Exception;
 
 class DoctrineComponent extends Component
 {
-    private $em    = null;
+    private $em = null;
     private $isDev = false;
     private $basePath;
     private $proxyPath;
@@ -29,7 +29,7 @@ class DoctrineComponent extends Component
     private function setConfig(array $config)
     {
         if (empty($config)) {
-            throw new Exception('Не удалось получить настройки Doctrine');
+            throw new Exception('No config found for Doctrine');
         }
 
         foreach ($config as $key => $value) {
